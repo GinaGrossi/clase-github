@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link css -->
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    <title>reserva</title>
+</head>
+
+<body class="reserva">
+    <header>
+        <h1 class="reserva__titulo"> Reserva </h1>
+    </header>
+    <main>
+        <form class="reserva__form">
+            <fieldset>
+                <legend> Completá tus datos de reserva </legend>
+
+                <div>
+                    <label for="nombre"> NOMBRE </label>
+                    <input type="text" name="nombre" placeholder="introduce aquí tu nombre">
+                </div>
+
+                <div>
+                    <label for="telefono"> TELEFONO </label>
+                    <input type="number" name="telefono" placeholder="sin el 0 y sin el 15">
+                </div>
+
+                <div>
+                    <label for="mail"> EMAIL </label>
+                    <input type="email" name="mail" placeholder="nn@email.com">
+                </div>
+
+                <div>
+                    <label for="fecha"> FECHA </label>
+                    <input type="date" name="fecha">
+                </div>
+
+                <div>
+                    <label for="hora"> HORARIO </label>
+                    <input type="time" name="hora">
+                </div>
+
+                <div>
+                    <input type="submit" value="ENVIAR">
+                </div>
+            </fieldset>
+        </form>
+    </main>
+
+</body>
+
+<FOOter>
+    <h5> TE CONTACTAREMOS PARA CONFIRMAR TU RESERVA </h5>  
+    <h6> completar el formulario no genera compromiso de reserva </h6>
+</FOOter>
+</html>
